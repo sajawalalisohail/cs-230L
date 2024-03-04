@@ -1,6 +1,6 @@
 import React from "react";
 
-const CustomNavbar = () => {
+const Navbar = () => {
   return (
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
@@ -26,4 +26,4 @@ const CustomNavbar = () => {
   );
 };
 
-export default CustomNavbar; 
+export default Navbar; 
