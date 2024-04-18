@@ -7,13 +7,22 @@ function mynavbar() {
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">About</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
+          <Form inling>
+            <FormControl
+              type="search"
+              placeholder="Search"
+              className="mr-sm-2"
+          />
+          <Button variant="outline-success">Search</Button>
+          </Form>
         </Container>
       </Navbar>
     </>
