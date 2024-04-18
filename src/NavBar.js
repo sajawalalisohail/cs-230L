@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/NavBar';
 
-function mynavbar() {
+function myNavBar() {
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
@@ -28,4 +28,4 @@ function mynavbar() {
   );
 }
 
-export default mynavbar;
+export default myNavBar;
