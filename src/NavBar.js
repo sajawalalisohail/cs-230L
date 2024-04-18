@@ -2,6 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
+import Button from 'react-bootstrap/Button'
+import Form  from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/FormControl';
 
 function myNavBar() {
   return (
